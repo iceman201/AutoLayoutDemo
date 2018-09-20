@@ -9,7 +9,8 @@
 import Foundation
 import KeepLayout
 
-let defaultPadding: KeepValue = KeepValue(value: 8, priority: KeepPriorityRequired) // Required is 50 (quite low)
+let defaultPadding: KeepValue = KeepValue(value: 8, priority: KeepPriorityRequired)
+// Required is 50 (quite low)
 let doublePadding: KeepValue = KeepValue(value: 16, priority: KeepPriorityRequired)
 let triplePadding: KeepValue = KeepValue(value: 24, priority: KeepPriorityRequired)
 let zeroPadding: KeepValue = KeepValue(value: 0, priority: KeepPriorityRequired)
@@ -27,6 +28,13 @@ extension Int {
         }
     }
 }
+extension CGFloat {
+    var keepValue: KeepValue {
+        get {
+            return KeepValue(value: self, priority: KeepPriorityRequired)
+        }
+    }
+}
 
 extension UIView {
     func applyGradient(colours: [UIColor]) -> Void {
@@ -41,4 +49,3 @@ extension UIView {
         self.layer.insertSublayer(gradient, at: 0)
     }
 }
-
