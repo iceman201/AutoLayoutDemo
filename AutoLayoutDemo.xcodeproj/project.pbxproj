@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0568BA762153A99B006437D6 /* StyleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568BA752153A99B006437D6 /* StyleFont.swift */; };
+		0568BA7A2153B00F006437D6 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0568BA792153B00B006437D6 /* FontAwesome.otf */; };
 		2596DFBF9BD38E713223B333 /* Pods_AutoLayoutDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A467F61B659C1DAA184B52 /* Pods_AutoLayoutDemoTests.framework */; };
 		BFB26020533DD5C67A23EA5E /* Pods_AutoLayoutDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5960225A0C68A4BC586D1088 /* Pods_AutoLayoutDemoUITests.framework */; };
 		E1216A58E57E439825E35495 /* Pods_AutoLayoutDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E40BBE6C2538D6F714AF40 /* Pods_AutoLayoutDemo.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0568BA752153A99B006437D6 /* StyleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFont.swift; sourceTree = "<group>"; };
+		0568BA792153B00B006437D6 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
 		22E2E0D2B60201442C857C2D /* Pods-AutoLayoutDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.release.xcconfig"; sourceTree = "<group>"; };
 		29A467F61B659C1DAA184B52 /* Pods_AutoLayoutDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoLayoutDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7FC46899AD31B65D9E8574 /* Pods-AutoLayoutDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLayoutDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLayoutDemo/Pods-AutoLayoutDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +147,7 @@
 				EADE01A221536D970003A1DC /* View */,
 				EADE01A321536DA30003A1DC /* Controller */,
 				EA2F67CD2153675D005964AE /* AppDelegate.swift */,
+				0568BA792153B00B006437D6 /* FontAwesome.otf */,
 				EA2F67D12153675D005964AE /* Main.storyboard */,
 				EA2F67D42153675F005964AE /* Assets.xcassets */,
 				EA2F67D62153675F005964AE /* LaunchScreen.storyboard */,
@@ -173,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				EADE01A421536DC30003A1DC /* StyleSheet.swift */,
+				0568BA752153A99B006437D6 /* StyleFont.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 			files = (
 				EA2F67D82153675F005964AE /* LaunchScreen.storyboard in Resources */,
 				EA2F67D52153675F005964AE /* Assets.xcassets in Resources */,
+				0568BA7A2153B00F006437D6 /* FontAwesome.otf in Resources */,
 				EA2F67D32153675D005964AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2F67D02153675D005964AE /* ViewController.swift in Sources */,
+				0568BA762153A99B006437D6 /* StyleFont.swift in Sources */,
 				EA2F67CE2153675D005964AE /* AppDelegate.swift in Sources */,
 				EADE01A521536DC30003A1DC /* StyleSheet.swift in Sources */,
 			);
@@ -597,13 +605,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S5KTHAH6J3;
+				DEVELOPMENT_TEAM = 8436A3G9R2;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ALD.AutoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ALD.AutoLayoutDemo.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -616,13 +624,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S5KTHAH6J3;
+				DEVELOPMENT_TEAM = 8436A3G9R2;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ALD.AutoLayoutDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = ALD.AutoLayoutDemo.home;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
