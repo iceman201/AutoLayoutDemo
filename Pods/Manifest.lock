@@ -1,0 +1,16 @@
+PODS:
+  - KeepLayout (1.2.2)
+
+DEPENDENCIES:
+  - KeepLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KeepLayout
+
+SPEC CHECKSUMS:
+  KeepLayout: 9ba1468df451892611203ee9101122a384a97e06
+
+PODFILE CHECKSUM: 7f791ac167fac4da869e9137d58fa5ca576e9268
+
+COCOAPODS: 1.5.3
