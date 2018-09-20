@@ -4,7 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>FontAwesome.otf</string>
+		<string>Font-Awesome.otf</string>
+		<string>Font-Awesome-5-Free-Solid-900.otf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
