@@ -35,6 +35,13 @@ extension CGFloat {
         }
     }
 }
+extension Double {
+    var keepValue: KeepValue {
+        get {
+            return KeepValue(value: CGFloat(self), priority: KeepPriorityRequired)
+        }
+    }
+}
 
 extension UIView {
     func applyGradient(colours: [UIColor]) -> Void {
