@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05061EEB215A17AE004D21AE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05061EEA215A17AE004D21AE /* CardView.swift */; };
 		0568BA762153A99B006437D6 /* StyleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568BA752153A99B006437D6 /* StyleFont.swift */; };
 		0568BA7F2153C8D4006437D6 /* Font-Awesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0568BA7E2153C8C4006437D6 /* Font-Awesome.otf */; };
 		0568BA812153C9F5006437D6 /* Font-Awesome-5-Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0568BA802153C9EE006437D6 /* Font-Awesome-5-Free-Solid-900.otf */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05061EEA215A17AE004D21AE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0568BA752153A99B006437D6 /* StyleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFont.swift; sourceTree = "<group>"; };
 		0568BA7E2153C8C4006437D6 /* Font-Awesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-Awesome.otf"; sourceTree = "<group>"; };
 		0568BA802153C9EE006437D6 /* Font-Awesome-5-Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-Awesome-5-Free-Solid-900.otf"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 		EADE01A221536D970003A1DC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				05061EEA215A17AE004D21AE /* CardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05061EEB215A17AE004D21AE /* CardView.swift in Sources */,
 				0568BA832153D2B1006437D6 /* BaseViewController.swift in Sources */,
 				EA2F67D02153675D005964AE /* ViewController.swift in Sources */,
 				0568BA852153D54F006437D6 /* CardViewController.swift in Sources */,
